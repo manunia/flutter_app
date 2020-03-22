@@ -63,6 +63,7 @@ class HomePageState extends State<HomePage> {
               RaisedButton(
                 onPressed: () {
                   setState(() {
+                    input = "";
                     _num1.text.isEmpty ? _validate = true : _validate = false;
                     _num2.text.isEmpty ? _validate = true : _validate = false;
 
@@ -80,6 +81,7 @@ class HomePageState extends State<HomePage> {
               RaisedButton(
                 onPressed: () {
                   setState(() {
+                    input = "";
                     _num1.text.isEmpty ? _validate = true : _validate = false;
                     _num2.text.isEmpty ? _validate = true : _validate = false;
 
